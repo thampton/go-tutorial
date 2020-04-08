@@ -20,3 +20,14 @@ Goland: https://www.jetbrains.com/go/
 ## GO
 go run main.go
 go run github.com/thampton/go-tutorial
+
+## Variables
+3 ways to initialize
+Implict initialization `:=` is most common
+Local Variables must be used or results in compiler error
+int, float32, float64, boolen, complex (real imag)
+
+## Pointers
+Location in memory that holds variable for usi
+nil indicates a pointer not pointing to anything
+* deferences pointers and indicates type is a pointer
