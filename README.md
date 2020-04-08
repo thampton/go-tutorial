@@ -31,3 +31,5 @@ int, float32, float64, boolen, complex (real imag)
 Location in memory that holds variable for usi
 nil indicates a pointer not pointing to anything
 * deferences pointers and indicates type is a pointer
+No pointer arhitmetic 
+& is the address of operator
