@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	controllers "github.com/thampton/go-tutorial/Controllers"
+	controllers "github.com/thampton/go-tutorial/controllers"
 )
 
 func main() {

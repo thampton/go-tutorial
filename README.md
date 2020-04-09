@@ -46,3 +46,12 @@ Slice -
   Slice constructed without fixed size, is dynamically sized and managed by go
 Maps - Key Value Pairs - Can specify key and value types.
 Struct - Only Data Type that can contain multiple data types
+
+## Program Flow
+Loops - For loop only - 4 types
+  loop till condition
+  loop till condition with post clause
+  infinite loops
+  loop over collections
+  
+
