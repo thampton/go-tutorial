@@ -44,4 +44,4 @@ Slice -
   : operator - complete array or slice, or range
   Slice constructed from fixed size array points to that array
   Slice constructed without fixed size, is dynamically sized and managed by go
-
+Maps - Key Value Pairs - Can specify key and value types.

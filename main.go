@@ -5,16 +5,13 @@ import (
 )
 
 func main() {
-	slice := []int{1, 2, 3}
-	fmt.Println(slice)
+	m := map[string]int{"foo": 42}
+	fmt.Println(m)
+	fmt.Println(m["foo"])
 
-	slice = append(slice, 4, 42, 27)
+	m["foo"] = 27
+	fmt.Println(m)
 
-	fmt.Println(slice)
-
-	s2 := slice[1:]
-	s3 := slice[:2]
-	s4 := slice[1:2]
-
-	fmt.Println(s2, s3, s4)
+	delete(m, "foo")
+	fmt.Println(m)
 }
