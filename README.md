@@ -39,4 +39,9 @@ keyword const, can use implict type but must assign value
 const blocks and iota allow for advanced constant patterns
 
 ## Collections
-Arrays - brackets go before size
+Arrays - brackets go before size and Arrays are constant size
+Slice - 
+  : operator - complete array or slice, or range
+  Slice constructed from fixed size array points to that array
+  Slice constructed without fixed size, is dynamically sized and managed by go
+
