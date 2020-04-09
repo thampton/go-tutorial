@@ -36,3 +36,7 @@ No pointer arhitmetic
 
 ## Constants
 keyword const, can use implict type but must assign value
+const blocks and iota allow for advanced constant patterns
+
+## Collections
+Arrays - brackets go before size
