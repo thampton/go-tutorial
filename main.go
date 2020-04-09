@@ -1,26 +1,12 @@
 package main
 
 import (
-	"fmt"
+	"net/http"
+
+	controllers "github.com/thampton/go-tutorial/Controllers"
 )
 
 func main() {
-	type user struct {
-		ID        int
-		FirstName string
-		LastName  string
-	}
-
-	var u user
-	u.ID = 1
-	u.FirstName = "Arthur"
-	u.LastName = "Dent"
-	fmt.Println(u, u.FirstName)
-
-	u2 := user{ID: 1,
-		FirstName: "Arthur",
-		LastName:  "Dent",
-	}
-	fmt.Println(u2)
-
+	controllers.RegisterControllers()
+	http.ListenAndServe(":3000", nil)
 }
