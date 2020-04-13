@@ -5,9 +5,7 @@ import (
 	"fmt"
 )
 
-/*
-  struct for user type
-*/
+// User stores information about individual users
 type User struct {
 	ID        int
 	FirstName string
