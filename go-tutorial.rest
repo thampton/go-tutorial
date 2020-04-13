@@ -11,3 +11,23 @@ POST {{host}}/users HTTP/1.1
 Content-Type: {{contentType}}
 
 {"FirstName": "Ford", "LastName": "Prefect"}
+
+###
+
+GET {{host}}/users/1
+
+###
+
+#500 Error
+
+GET {{host}}/users/99
+
+###
+
+PUT {{host}}/users/1
+Content-Type: {{contentType}}
+
+{"ID": 1, "FirstName": "Arthur", "LastName": "Dent"}
+
+### 
+DELETE {{host}}/users/4
